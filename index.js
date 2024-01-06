@@ -18,4 +18,8 @@ decrement.onclick = function() {
 reset.onclick = function() {
     count = 0;
     counter.textContent = count;
+    chalkAudio.play();
 }
+
+let chalkAudio = new Audio();
+chalkAudio.src = "assets/audio/chalk.mp3";
