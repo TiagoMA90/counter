@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+
+body {
+    background-color: #222222;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#counter {
+    color: #ffffff;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    margin-bottom: 10px;
+}
+
+.container {
+    text-align: center;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttons {
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    padding: 25px 20px;
+    font-size: 40px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color .50s;
+    margin: 20px;
+    background-color: #222222;
+    border: dashed;
+}
+
+.buttons:hover {
+    background-color: #111111;
+}
+
+#reset:hover {
+    background-color: #700000;
+}
