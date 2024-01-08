@@ -48,3 +48,8 @@ body {
 #reset:hover {
     background-color: #700000;
 }
+
+.author {
+    color: #ffffff4b;
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+}
